@@ -46,4 +46,5 @@ public class MyTraverse {
             System.out.println(node.getData() + " ");
         }
     }
+
 }
