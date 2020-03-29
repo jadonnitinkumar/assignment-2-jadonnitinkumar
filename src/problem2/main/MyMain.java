@@ -27,5 +27,6 @@ public class MyMain {
         m.traversePostorder(m.getRoot());
 
         System.out.println("Satisfy the both of two conditions.");
+
     }
 }
