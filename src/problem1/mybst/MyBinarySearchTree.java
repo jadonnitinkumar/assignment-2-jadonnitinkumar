@@ -6,5 +6,10 @@
  */
 package problem1.mybst;
 // to implement BinarySearchTree
-public class MyBinarySearchTree {
+public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
+    public int numberofleftchild = 0;
+
+    public void add(E i) {
+
+    }
 }
