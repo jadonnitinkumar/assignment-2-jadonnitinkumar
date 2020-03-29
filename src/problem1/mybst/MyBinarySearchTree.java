@@ -12,4 +12,7 @@ public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
     public void add(E i) {
 
     }
+
+    public void print() {
+    }
 }
