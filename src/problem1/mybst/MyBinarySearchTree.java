@@ -24,10 +24,10 @@ public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
             currentNode.setLeftchild(addRecursive(currentNode.getLeftchild(), data));
         } else if ((Integer) data < (Integer) currentNode.getData()) {
             currentNode.setRightchild(addRecursive(currentNode.getRightchild(), data));
-
         }
         return currentNode;
     }
+
 
 }
 
