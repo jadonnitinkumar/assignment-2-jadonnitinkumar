@@ -1,18 +1,32 @@
-/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:17 PM
- */
 package problem1.mybst;
-// to implement BinarySearchTree
+
+import problem1.node.TreeNode;
+
 public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
     public int numberofleftchild = 0;
+    private TreeNode<E> root;
+    private int maxlevel = 0;
 
-    public void add(E i) {
-
+    public TreeNode<E> getRoot() {
+        return root;
     }
 
-    public void print() {
+    @Override
+    public boolean add(E data) {
+        return false;
     }
+
+    private TreeNode<E> addRecursive(TreeNode<E> currentNode, E data) {
+        if (currentNode == null) {
+            return new TreeNode<>(data);
+        } else if ((Integer) data < (Integer) currentNode.getData()) {
+            currentNode.setLeftchild(addRecursive(currentNode.getLeftchild(), data));
+        } else if ((Integer) data < (Integer) currentNode.getData()) {
+            currentNode.setRightchild(addRecursive(currentNode.getRightchild(), data));
+
+        }
+        return currentNode;
+    }
+
 }
+
