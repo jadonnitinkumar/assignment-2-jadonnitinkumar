@@ -9,6 +9,7 @@ public class MyBinarySearchTree<E> implements MyBinarySearchTreeADT<E> {
 
     public TreeNode<E> getRoot() {
         return root;
+
     }
 
     @Override
