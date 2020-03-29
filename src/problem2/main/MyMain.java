@@ -20,10 +20,10 @@ public class MyMain {
         m.insert(15);
         m.insert(25);
         m.insert(35);
-
         System.out.println("Pre order traversing:");
         m.traversePreorder(m.getRoot());
         System.out.println();
+
         System.out.println("Post order traversing:");
         m.traversePostorder(m.getRoot());
         System.out.println("Satisfy the both of two conditions.");
