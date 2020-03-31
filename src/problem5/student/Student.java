@@ -7,4 +7,15 @@
 package problem5.student;
 // to store student information and properties
 public class Student {
+    public Student(int i, String nitin_kumar) {
+
+    }
+
+    public Student() {
+
+    }
+
+    public boolean getRollno() {
+        return false;
+    }
 }
