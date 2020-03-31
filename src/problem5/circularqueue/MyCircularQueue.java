@@ -23,4 +23,8 @@ public class MyCircularQueue {
     public void setFront(Node front){
         this.front=front;
     }
+
+    public void setEnd(Node end){
+        this.end=end;
+    }
 }
