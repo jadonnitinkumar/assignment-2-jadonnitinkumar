@@ -27,4 +27,12 @@ public class MyCircularQueue {
     public void setEnd(Node end){
         this.end=end;
     }
+
+    public void enqueue(Node newNode){
+        if(getFront()==null && getEnd()==null){
+            setFront(newNode);
+            setEnd(newNode);
+            getEnd().setNext(getFront());
+        }
+    }
 }
