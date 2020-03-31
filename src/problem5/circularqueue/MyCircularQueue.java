@@ -40,4 +40,11 @@ public class MyCircularQueue {
         }
     }
 
+    public void traverseQueue(){
+        Node temp = getFront();
+        while (true){
+            System.out.println(temp.getS());
+        }
+    }
+
 }

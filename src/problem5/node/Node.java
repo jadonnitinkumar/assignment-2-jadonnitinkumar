@@ -26,4 +26,12 @@ public class Node {
     public Node getNext() {
         return next;
     }
+
+    public void getS(Student s) {
+        this.s=s;
+    }
+
+    public Student getS() {
+        return s;
+    }
 }
