@@ -11,4 +11,8 @@ import problem5.node.Node;
 //to implement circular queue
 public class MyCircularQueue {
     private Node front,end;
+
+    public Node getFront(){
+        return front;
+    }
 }
